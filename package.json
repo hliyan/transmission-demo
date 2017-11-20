@@ -1,0 +1,16 @@
+{
+  "name": "hliyan-shell-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eventemitter2": "^4.1.2",
+    "vorpal": "^1.12.0"
+  }
+}
