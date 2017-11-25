@@ -1,4 +1,4 @@
-const Engine = require('../../lib/engine');
+const Emitter = require('../../lib/emitter');
 const vorpal = require('vorpal');
 
 const events = {
@@ -13,7 +13,7 @@ const constants = {
 /**
  * Encapsulates all todo presentation concerns (in this case, a CLI)
  */
-class TodoShell extends Engine {
+class TodoShell extends Emitter {
   /* istanbul ignore next */
   constructor(options) {
     super();

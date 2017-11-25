@@ -1,4 +1,4 @@
-const Engine = require('../../lib/engine');
+const Emitter = require('../../lib/emitter');
 
 const events = {
   INIT:'init',
@@ -15,7 +15,7 @@ const constants = {
 /**
  * Encapsulates all todo business logic and state
  */
-class TodoEngine extends Engine {
+class TodoEngine extends Emitter {
   constructor() {
     super();
     this.events = events;

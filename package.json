@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "pkg -t macos -o ./bin/todo index.js"
   },
   "author": "",
   "license": "ISC",

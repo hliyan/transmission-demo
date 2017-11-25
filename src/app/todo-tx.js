@@ -6,7 +6,7 @@ const TodoShell = require('../shell/todo-shell');
  * This is the app -- it connects the business logic of the
  * TodoEngine to the presentation capabilities of the TodoShell
  */
-class TodoApp {
+class TodoTx {
   constructor() {
     this.engine = new TodoEngine();
     this.shell = new TodoShell();
@@ -56,4 +56,4 @@ class TodoApp {
   }
 }
 
-module.exports = TodoApp;
+module.exports = TodoTx;
