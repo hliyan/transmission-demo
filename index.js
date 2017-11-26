@@ -1,4 +1,5 @@
-const TodoApp = require('./src/app/todo-tx');
+const TodoTx = require('./src/app/todo-tx');
 
-const app = new TodoApp();
+// the transmission layer *is* the app
+const app = new TodoTx();
 app.run();
